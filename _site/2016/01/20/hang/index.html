@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="The Webpage for Red Shift Robotics' 2856 Tesseract.">
+    <link rel="icon" href="img/tess.png">
+
+
+    <title>Session #47 - 2856 Tesseract</title>
+
+    <link rel="canonical" href="localhost:4000/2016/01/20/hang/">
+
+    <!-- Bootstrap Core CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="/css/clean-blog.css">
+
+    <!-- Pygments Github CSS -->
+    <link rel="stylesheet" href="/css/syntax.css">
+
+    <!-- Custom Fonts -->
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='//fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Play:400,700' rel='stylesheet' type='text/css'>
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+
+<body>
+
+    <!-- Navigation -->
+<nav class="navbar navbar-default navbar-custom navbar-fixed-top">
+    <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header page-scroll">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="/">
+                <img src="/img/tesshead.png" alt="tesseract" height="100%">
+                
+            </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <a href="/">Home</a>
+                </li>
+                
+                <li>
+                    <a href="/about/">Our Team</a>
+                </li>
+                
+                <li>
+                    <a href="/essays/">Essays</a>
+                </li>
+                
+                <li>
+                    <a href="/social/">Social Media</a>
+                </li>
+                
+            </ul>
+        </div>
+        <!-- /.navbar-collapse -->
+    </div>
+    <!-- /.container -->
+</nav>
+
+    <header>
+<div class="post-head">
+       <div class="row">
+			<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+		                <div class="post-heading">
+		                    <h1 class="post-h1">Session #47</h1>
+		                    
+		                    <h2 class="subheading">Focus of The Day: Improving the Hanging Mechanism</h2>
+		                    
+		                    <span class="meta">Posted on January 20, 2016</span>
+		                </div>
+		 	</div>
+		 </div>
+</div>
+</header>
+
+
+
+
+
+<!-- Content -->
+<article>
+
+<br>
+<br>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+
+				<h2>Improving the hanging mechanism</h2>
+
+<p>Isaac and Matt worked on the new hanging mechanism. They did some tests earlier and found that a 2:1 gear ratio is needed, not an 8:1 ratio. This means we can move the hanging mechanism faster and it takes less time. They redesigned a smaller gearbox for it today. It’s about twice as compact as the old version and will hang the robot 4 times as fast.</p>
+
+<p>They used a spring force gauge and hooked up a 60:1 motor and pulled a string. This way, they found that alone would exert enough torque to pull the weight of our entire robot up. For safety, they decided to use a 2:1.</p>
+
+<p>They also added a servo to the hanging mechanism so we can adjust the angle. Now, we no longer have the use the back brace to adjust it and we can move the tape measure’s angle much slower, so it won’t break. Isaac is writing code for that currently. Their future plan is to mount it on the robot.</p>
+
+<p><img src="/img/post47-1.jpg" alt="hang" width="50%" />
+<span style="text-align: left;" class="caption text-muted">Working on the Hang Mechanism.</span></p>
+
+<hr />
+
+<h2>Resized the ball collector</h2>
+
+<p>Peter resized the ball collector. He drilled new holes so that it would be higher up. It has to be higher up so we can fit scoring mechanism higher up, so it scores correctly. The gears aren’t meshing well, so Peter is working on fixing it. </p>
+
+<p><img src="/img/post47-2.jpg" alt="collector" width="50%" />
+<span style="text-align: left;" class="caption text-muted">Ball Collector.</span></p>
+
+<hr />
+
+<h2>Better zipliner trigger</h2>
+
+<p>Samin and Armon made a mechanism to trigger the zipliners. This is similar to the King’s mechanism, in that it folds down and works reliably. It will work better than our current mechanism because it will be able to get the third zipliner and generally be more reliable.</p>
+
+<p><img src="/img/post47-3.jpg" alt="zipliner" width="50%" />
+<span style="text-align: left;" class="caption text-muted">New Zipliner Trigger.</span></p>
+
+<hr />
+
+<h2>Adding second motor to drive train</h2>
+
+<p>Wilson and Samin added a second motor to each side of the drive train for extra torque. Wilson also labeled sides of the robot and is prepared to do the electronics after everything has been mounted. Labeling the sides helps communicate which motors are plugged into where, helps communication between the drivers, and allows the judges to understand our robot better. His last point: it’s fun :-).</p>
+
+<p><img src="/img/post47-4.jpg" alt="brace" width="50%" />
+<span style="text-align: left;" class="caption text-muted">Back Brace.</span></p>
+
+<hr />
+
+<h2>Replaced back wheel</h2>
+
+<p>Samin replaced the back wheel with a different back wheel. It is a ninja-flex 3D printed back wheel. It is the same idea as our old treads, but works better repurposed for this.</p>
+
+<p><img src="/img/post47-5.jpg" alt="wheel" width="50%" />
+<span style="text-align: left;" class="caption text-muted">Back Brace Wheel.</span></p>
+
+<hr />
+
+<h2>Engineering notebook fixing</h2>
+
+<p>Although the notebook did well at Interleague, that does not mean it is done. Arielle worked on fixing formatting problems, revising and editing, and organized it in such a way that computer page numbering will be easier. In addition, she added all the daily logs to the table of contents for the sake of ease of reading. </p>
+
+
+                <hr>
+
+                <ul class="pager">
+                    
+                    <li class="previous">
+                        <a href="/2016/01/03/auto/" data-toggle="tooltip" data-placement="top" title="Session #41">&larr; Previous Post</a>
+                    </li>
+                    
+                    
+                    <li class="next">
+                        <a href="/2016/01/21/mech/" data-toggle="tooltip" data-placement="top" title="Session #48">Next Post &rarr;</a>
+                    </li>
+                    
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</article>
+
+<hr>
+
+    <!-- Footer -->
+<footer>
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
+                <ul class="list-inline text-center">
+                    
+                    
+                    <li>
+                        <a href="https://twitter.com/redshiftftc">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    
+                    
+                    
+                    <li>
+                        <a href="https://github.com/redshiftrobotics">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-github fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                    
+                    <li>
+                        <a href="/feed.xml">
+                            <span class="fa-stack fa-lg">
+                                <i class="fa fa-circle fa-stack-2x"></i>
+                                <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+                <p class="copyright text-muted">Copyright &copy; 2856 Tesseract 2016</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<!-- jQuery -->
+<script src="/js/jquery.min.js "></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="/js/bootstrap.min.js "></script>
+
+<!-- Custom Theme JavaScript -->
+<script src="/js/clean-blog.min.js "></script>
+
+
+</body>
+
+</html>

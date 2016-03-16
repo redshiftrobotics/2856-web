@@ -1,0 +1,18 @@
+# Site settings
+title: 2856 Tesseract
+header-img: img/
+email: saasrobots@gmail.com
+description: "The Webpage for Red Shift Robotics' 2856 Tesseract."
+baseurl: ""
+url: "localhost:4000"
+twitter_username: redshiftftc
+github_username:  redshiftrobotics
+facebook_username: 
+instagram_username: 2856tesseract
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+permalink: pretty
+paginate: 32
+exclude: ["less","node_modules","Gruntfile.js","package.json","README.md"]

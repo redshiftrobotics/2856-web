@@ -1,0 +1,32 @@
+---
+layout: page
+title: "Essays"
+description: "Engineering Notebook"
+header-img: "img/home-bg.jpg"
+---
+
+<h1>Essays</h1>
+<hr>
+<h1>Essays Coming Soon!</h1>
+<h2>Make Sure To Check Back!</h2>
+
+{% for post in paginator.posts %}
+{% if post.categories contains 'essay' %}
+    
+
+<div class="post-preview">
+    <a href="{{ post.url | prepend: site.baseurl }}">
+        <h2 class="post-title">            {{ post.title }}
+        </h2>
+        {% if post.subtitle %}
+        <h3 class="post-subtitle">
+            {{ post.subtitle }}
+        </h3>
+        {% endif %}
+
+    </a>
+    <p class="post-meta">Posted by {% if post.author %}{{ post.author }}{% else %}{{ post.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}</p>
+</div>
+{% endif %}
+{% endfor %}
+
