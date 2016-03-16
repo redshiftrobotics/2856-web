@@ -4,7 +4,7 @@ header-img: img/
 email: saasrobots@gmail.com
 description: "The Webpage for Red Shift Robotics' 2856 Tesseract."
 baseurl: ""
-url: "localhost:4000"
+url: "http://2856.io"
 twitter_username: redshiftftc
 github_username:  redshiftrobotics
 facebook_username: 
